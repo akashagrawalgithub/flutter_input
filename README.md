@@ -13,6 +13,10 @@ Date and time pickers for handling temporal data.
 Sliders and switches for simple user interactions.
 Multiline text inputs and more.
 
+![](https://i.ibb.co/3M4Y8cF/first.jpg)
+
+![](https://i.ibb.co/8mPzBB5/Whats-App-Image-2023-07-29-at-22-06-31.jpg)
+
 ## Getting Started
 
 
