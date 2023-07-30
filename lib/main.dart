@@ -128,13 +128,22 @@ class _MyFormState extends State<MyForm> {
                           maxLength: 30,
                           keyboardType: TextInputType.text,
                           decoration: InputDecoration(
-                            prefixIcon: const Icon(Icons.person),
-                            labelText: "Enter your name",
+                            prefixIcon: const Icon(
+                              Icons.person,
+                              color: Colors.white,
+                            ),
+                            labelText: "Enter your name here",
                             hintText: "Enter your name",
+                            labelStyle: const TextStyle(
+                              color: Colors.white,
+                            ),
+                            hintStyle: const TextStyle(
+                              color: Colors.white60,
+                            ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                               borderSide: const BorderSide(
-                                color: Colors.white,
+                                color: Colors.red,
                                 width: 2,
                               ),
                             ),
@@ -159,13 +168,23 @@ class _MyFormState extends State<MyForm> {
                           },
                           decoration: InputDecoration(
                             labelText: 'Email',
-                            prefixIcon: Icon(Icons.email),
+                            hintText: "Enter your email",
+                            prefixIcon: const Icon(
+                              Icons.email,
+                              color: Colors.white,
+                            ),
+                            hintStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            labelStyle: TextStyle(
+                              color: Colors.white,
+                            ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: const BorderSide(
-                                color: Colors.green,
+                                color: Colors.white70,
                                 width: 1.5,
                               ),
                               borderRadius: BorderRadius.circular(10.0),
@@ -185,13 +204,25 @@ class _MyFormState extends State<MyForm> {
                           decoration: InputDecoration(
                             hintText: "Enter your password",
                             labelText: "Password",
-                            prefixIcon: const Icon(Icons.lock),
+                            hintStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            labelStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            prefixIcon: const Icon(
+                              Icons.lock,
+                              color: Colors.white,
+                            ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
+                              borderSide: const BorderSide(
+                                color: Colors.white70,
+                              ),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: const BorderSide(
-                                color: Colors.green,
+                                color: Colors.white70,
                                 width: 1.5,
                               ),
                               borderRadius: BorderRadius.circular(10.0),
@@ -212,13 +243,22 @@ class _MyFormState extends State<MyForm> {
                           decoration: InputDecoration(
                             hintText: "Enter your 12th number",
                             labelText: "12th number",
-                            prefixIcon: const Icon(Icons.school),
+                            hintStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            labelStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            prefixIcon: const Icon(
+                              Icons.school,
+                              color: Colors.white,
+                            ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: const BorderSide(
-                                color: Colors.green,
+                                color: Colors.white70,
                                 width: 1.5,
                               ),
                               borderRadius: BorderRadius.circular(10.0),
@@ -238,13 +278,22 @@ class _MyFormState extends State<MyForm> {
                           decoration: InputDecoration(
                             hintText: "Enter your phone number",
                             labelText: "Phone",
-                            prefixIcon: const Icon(Icons.phone),
+                            hintStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            labelStyle: TextStyle(
+                              color: Colors.white,
+                            ),
+                            prefixIcon: const Icon(
+                              Icons.phone,
+                              color: Colors.white,
+                            ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: const BorderSide(
-                                color: Colors.green,
+                                color: Colors.white70,
                                 width: 1.5,
                               ),
                               borderRadius: BorderRadius.circular(10.0),

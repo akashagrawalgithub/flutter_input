@@ -2,7 +2,7 @@
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:label="full_input"
+        android:label="First major project"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
