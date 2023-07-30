@@ -301,9 +301,9 @@ class _MyFormState extends State<MyForm> {
                           ),
                         ),
                         const SizedBox(height: 15),
-                        Row(
+                        const Row(
                           children: [
-                            const Text(
+                            Text(
                               "Select your gender",
                               textAlign: TextAlign.left,
                               style: TextStyle(
@@ -314,7 +314,8 @@ class _MyFormState extends State<MyForm> {
                           ],
                         ),
                         RadioListTile<String>(
-                          title: Text("Male",
+                          activeColor: Colors.grey,
+                          title: const Text("Male",
                               style: TextStyle(color: Colors.white70)),
                           value: "admii",
                           groupValue: _radiobutton,
@@ -340,9 +341,9 @@ class _MyFormState extends State<MyForm> {
                           },
                         ),
                         const SizedBox(height: 15),
-                        Row(
+                        const Row(
                           children: [
-                            const Text(
+                            Text(
                               "Select your hobbies",
                               textAlign: TextAlign.left,
                               style: TextStyle(
@@ -355,7 +356,7 @@ class _MyFormState extends State<MyForm> {
                         ),
                         const SizedBox(height: 10),
                         CheckboxListTile(
-                          title: Text(
+                          title: const Text(
                             "First",
                             style: TextStyle(color: Colors.white70),
                           ),
@@ -373,7 +374,7 @@ class _MyFormState extends State<MyForm> {
                           },
                         ),
                         CheckboxListTile(
-                          title: Text(
+                          title: const Text(
                             "Second",
                             style: TextStyle(
                               color: Colors.white70,
@@ -393,7 +394,7 @@ class _MyFormState extends State<MyForm> {
                           },
                         ),
                         CheckboxListTile(
-                          title: Text(
+                          title: const Text(
                             "Third",
                             style: TextStyle(
                               color: Colors.white70,
